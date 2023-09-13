@@ -1,21 +1,27 @@
 package denniss_demo;
 
+import java.util.Scanner;
+
 public class bruh {
 
 	public static void main(String[] args) {
 		
-		System.out.print("welcome to the jungle  \t");
-		System.out.println("you should kys NOW");
-		int age;
+		
 		int random;
 		double number;
 	    String name;
 	    name = "donke";
 		random = 15;
-		age = 18+random;
+		
 		number = 5;
-		System.out.println(age);
-		System.out.println(number);
+		Scanner input = new Scanner(System.in);
+		System.out.println("type in the 1st number");
+		int num1 = input.nextInt();
+		System.out.println("type in the second number");
+		int num2 = input.nextInt();
+		
+		System.out.println(num1+num2);
+		
 	}
 
 }
